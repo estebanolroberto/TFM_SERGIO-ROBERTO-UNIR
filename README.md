@@ -16,3 +16,40 @@ Este Trabajo de Fin de Máster (TFM) analiza cómo las noticias y opiniones en r
     └── final_analysis.ipynb  # EDA, análisis de sentimiento y correlación con precios
 
 📄 README.md
+
+
+```
+## 🧪 Tecnologías y librerías principales
+- Python 3
+
+- Pandas
+
+- Requests
+
+- Matplotlib / Seaborn
+
+- Scikit-learn
+
+- NLTK / spaCy (para análisis de sentimientos)
+
+- PRAW o Pushshift API (para recopilación de Reddit)
+
+- Jupyter Notebooks
+
+##  📉 Ejemplo de datos generados
+El notebook de la carpeta data_collection/ generan archivos .csv como:
+
+- doge_prices_last_365_days_mean.csv
+
+- pepe_volatility_last_365_days.csv
+
+etc.
+
+Estos CSV contienen información diaria procesada para facilitar el análisis exploratorio y la correlación posterior.
+
+## 📚 Licencia
+Este proyecto está desarrollado con fines académicos como parte del Máster Universitario en Análisis y Visualización de Datos Masivos.
+
+## 👨‍🎓 Autores
+Trabajo desarrollado por Roberto Esteban Olivares y Sergio Díaz De La Peña, dentro del Máster en Visual Analytics & Big Data (UCLM).
+
