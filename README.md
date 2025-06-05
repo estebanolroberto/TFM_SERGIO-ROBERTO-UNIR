@@ -5,15 +5,18 @@ Este Trabajo de Fin de Máster (TFM) analiza cómo las noticias y opiniones en r
 ## 🗂 Estructura del repositorio
 
 ```bash
-📁 data_collection/
-    ├── GetMemecoinsData.ipynb
-    └── *.csv (archivos generados por los scripts)
+📁 analysis/
+    └── final_analysis.ipynb       # EDA, análisis de sentimiento y correlación con precios
+
+📁 memecoins_data_collection/
+    ├── memecoins_prices_data.ipynb  # Obtención y procesamiento de datos de precios de las memecoins
+    ├── memecoins_prices_data_05_06_25.csv  # CSV generado con datos de precios de las memecoins
+    ├── memecoins_volatility_data.ipynb   # Obtención y procesamiento de datos de volatilidad
+    ├── memecoins_volatility_data_05_06_25.csv  # CSV generado con datos de volatilidad de las memecoins
 
 📁 reddit_data/
-    └── reddit_scraper.ipynb  # Recolección de datos de Reddit
-
-📁 analysis/
-    └── final_analysis.ipynb  # EDA, análisis de sentimiento y correlación con precios
+    └── reddit_data_extractor.ipynb  # Extracción y procesamiento de datos desde Reddit
+    └── memecoins_reddit_raw_04_06_25.csv  # CSV generado con datos extraídos de Reddit
 
 📄 README.md
 
@@ -37,15 +40,13 @@ Este Trabajo de Fin de Máster (TFM) analiza cómo las noticias y opiniones en r
 - Jupyter Notebooks
 
 ##  📉 Ejemplo de datos generados
-El notebook de la carpeta data_collection/ generan archivos .csv como:
+Los notebooks de la carpeta memecoins_data_collection/ generan archivos .csv como:
 
-- doge_prices_last_365_days_mean.csv
+`memecoins_prices_data_05_06_25.csv`: Datos procesados sobre los precios diarios de las memecoins.
 
-- pepe_volatility_last_365_days.csv
+`memecoins_volatility_data_05_06_25.csv`: Datos procesados sobre la volatilidad diaria de las memecoins.
 
-etc.
-
-Estos CSV contienen información diaria procesada para facilitar el análisis exploratorio y la correlación posterior.
+Estos archivos CSV contienen información diaria procesada para facilitar el análisis exploratorio, la correlación con otros factores (como los sentimientos en Reddit) y el análisis de la relación entre la volatilidad y los precios de las memecoins.
 
 ## 📚 Licencia
 Este proyecto está desarrollado con fines académicos como parte del Máster Universitario en Análisis y Visualización de Datos Masivos.
