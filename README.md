@@ -52,5 +52,5 @@ Estos archivos CSV contienen información diaria procesada para facilitar el an�
 Este proyecto está desarrollado con fines académicos como parte del Máster Universitario en Análisis y Visualización de Datos Masivos.
 
 ## 👨‍🎓 Autores
-Trabajo desarrollado por Roberto Esteban Olivares y Sergio Díaz De La Peña, dentro del Máster en Visual Analytics & Big Data (UCLM).
+Trabajo desarrollado por Roberto Esteban Olivares y Sergio Díaz De La Peña, dentro del Máster en Visual Analytics & Big Data (UNIR).
 
