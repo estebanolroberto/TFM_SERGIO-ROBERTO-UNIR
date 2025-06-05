@@ -33,9 +33,9 @@ Este Trabajo de Fin de Máster (TFM) analiza cómo las noticias y opiniones en r
 
 - Scikit-learn
 
-- NLTK / spaCy (para análisis de sentimientos)
+- VADER para análisis de sentimientos
 
-- PRAW o Pushshift API (para recopilación de Reddit)
+- PRAW 
 
 - Jupyter Notebooks
 
